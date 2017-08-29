@@ -24,13 +24,12 @@ class Employee {
   }
 }
 
-// Inheritence
+
 class Manager extends Employee {
   constructor(name, sex, yob){
     super(name, 'Mananger', sex, yob);
   }
   
-  // Polymorphism
   speak() {
     if(this.sex === 'male' || this.sex === 'M' || this.sex === 'm'){
       return `I'm Mr ${this.name}, and I'm your your boss`;
