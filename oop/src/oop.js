@@ -1,8 +1,5 @@
 class Employee {
   constructor(name, position, sex, yob) {
-    if(typeof(name) !== 'string') {
-
-    }
     this.name = name;
     this.position = position || 'employee';
     this.sex = sex;
